@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="102" y="138" />
+        <Position x="54" y="162" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -25,9 +25,6 @@
           <DefaultAnnotationText>storesalesdata.csv</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Store" size="254" source="File: E:\Dokumente\05_Studium\Udacity\Predictive_Analytics\0_Projects\Project8_CombiningTechniques\all-project-files\storesalesdata.csv" type="V_String" />
@@ -50,7 +47,7 @@
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="102" y="258" />
+        <Position x="54" y="282" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -63,15 +60,14 @@
           <DefaultAnnotationText>New_Clustered_data.yxdb</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Store" size="254" source="File: E:\Dokumente\05_Studium\Udacity\Predictive_Analytics\0_Projects\Project8_CombiningTechniques\all-project-files\storeinformation.csv" type="V_String" />
-            <Field name="Type" size="254" source="File: E:\Dokumente\05_Studium\Udacity\Predictive_Analytics\0_Projects\Project8_CombiningTechniques\all-project-files\storeinformation.csv" type="V_String" />
-            <Field name="Right_Store" size="1073741823" source="R-DATA:" type="V_WString" />
-            <Field name="Sum_Produce" source="R-DATA:" type="Double" />
+            <Field name="Store" size="5" source="File: E:\Dokumente\05_Studium\Udacity\Predictive_Analytics\0_Projects\Project8_CombiningTechniques\all-project-files\storeinformation.csv" type="String" />
+            <Field name="Address" size="29" source="File: E:\Dokumente\05_Studium\Udacity\Predictive_Analytics\0_Projects\Project8_CombiningTechniques\all-project-files\storeinformation.csv" type="V_String" />
+            <Field name="City" size="21" source="File: E:\Dokumente\05_Studium\Udacity\Predictive_Analytics\0_Projects\Project8_CombiningTechniques\all-project-files\storeinformation.csv" type="V_String" />
+            <Field name="State" size="2" source="File: E:\Dokumente\05_Studium\Udacity\Predictive_Analytics\0_Projects\Project8_CombiningTechniques\all-project-files\storeinformation.csv" type="String" />
+            <Field name="Zip" source="File: E:\Dokumente\05_Studium\Udacity\Predictive_Analytics\0_Projects\Project8_CombiningTechniques\all-project-files\storeinformation.csv" type="Int32" />
+            <Field name="Type" size="8" source="File: E:\Dokumente\05_Studium\Udacity\Predictive_Analytics\0_Projects\Project8_CombiningTechniques\all-project-files\storeinformation.csv" type="String" />
             <Field name="Total_sales" source="R-DATA:" type="Double" />
             <Field name="Cluster" source="R-DATA:" type="Int32" />
           </RecordInfo>
@@ -81,7 +77,7 @@
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
-        <Position x="222" y="150" />
+        <Position x="174" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -129,7 +125,7 @@
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="330" y="150" />
+        <Position x="282" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -150,7 +146,7 @@
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="450" y="198" />
+        <Position x="402" y="222" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -187,7 +183,7 @@
     </Node>
     <Node ToolID="6">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="618" y="198" />
+        <Position x="570" y="222" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -208,7 +204,7 @@
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
-        <Position x="534" y="198" />
+        <Position x="486" y="222" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -231,6 +227,10 @@
             <Field name="Year" source="Summarize: GroupBy - Year" type="Int16" />
             <Field name="Month" size="2" source="Summarize: GroupBy - Month" type="String" />
             <Field name="Sum_Produce" source="Summarize: Sum - Produce" type="Double" />
+            <Field name="Address" size="29" source="File: E:\Dokumente\05_Studium\Udacity\Predictive_Analytics\0_Projects\Project8_CombiningTechniques\all-project-files\storeinformation.csv" type="V_String" />
+            <Field name="City" size="21" source="File: E:\Dokumente\05_Studium\Udacity\Predictive_Analytics\0_Projects\Project8_CombiningTechniques\all-project-files\storeinformation.csv" type="V_String" />
+            <Field name="State" size="2" source="File: E:\Dokumente\05_Studium\Udacity\Predictive_Analytics\0_Projects\Project8_CombiningTechniques\all-project-files\storeinformation.csv" type="String" />
+            <Field name="Zip" source="File: E:\Dokumente\05_Studium\Udacity\Predictive_Analytics\0_Projects\Project8_CombiningTechniques\all-project-files\storeinformation.csv" type="Int32" />
             <Field name="Cluster" source="R-DATA:" type="Int32" />
           </RecordInfo>
         </MetaInfo>
@@ -239,7 +239,7 @@
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="786" y="66" />
+        <Position x="738" y="90" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -270,7 +270,7 @@
     </Node>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="786" y="198" />
+        <Position x="738" y="222" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -301,7 +301,7 @@
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="786" y="318" />
+        <Position x="738" y="342" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -332,7 +332,7 @@
     </Node>
     <Node ToolID="11">
       <GuiSettings>
-        <Position x="906" y="54" />
+        <Position x="858" y="78" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -387,15 +387,12 @@
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings Macro="Predictive Tools\ETS.yxmc" />
     </Node>
     <Node ToolID="12">
       <GuiSettings>
-        <Position x="906" y="186" />
+        <Position x="858" y="210" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -450,15 +447,12 @@
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings Macro="Predictive Tools\ETS.yxmc" />
     </Node>
     <Node ToolID="13">
       <GuiSettings>
-        <Position x="906" y="306" />
+        <Position x="858" y="330" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -513,15 +507,12 @@
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings Macro="Predictive Tools\ETS.yxmc" />
     </Node>
     <Node ToolID="14">
       <GuiSettings>
-        <Position x="1026" y="42" />
+        <Position x="978" y="66" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -570,7 +561,7 @@
     </Node>
     <Node ToolID="15">
       <GuiSettings>
-        <Position x="1026" y="174" />
+        <Position x="978" y="198" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -619,7 +610,7 @@
     </Node>
     <Node ToolID="16">
       <GuiSettings>
-        <Position x="1026" y="294" />
+        <Position x="978" y="318" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -668,7 +659,7 @@
     </Node>
     <Node ToolID="17">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="1122" y="30" />
+        <Position x="1074" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -687,7 +678,7 @@
     </Node>
     <Node ToolID="18">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="1122" y="162" />
+        <Position x="1074" y="186" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -706,7 +697,7 @@
     </Node>
     <Node ToolID="19">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="1122" y="282" />
+        <Position x="1074" y="306" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -725,7 +716,7 @@
     </Node>
     <Node ToolID="20">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="1290" y="174" />
+        <Position x="1242" y="198" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -744,7 +735,7 @@
     </Node>
     <Node ToolID="21">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="1458" y="174" />
+        <Position x="1410" y="198" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -765,7 +756,7 @@
     </Node>
     <Node ToolID="22">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1362" y="174" />
+        <Position x="1314" y="198" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -789,7 +780,7 @@
     </Node>
     <Node ToolID="23">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="1578" y="174" />
+        <Position x="1530" y="198" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -807,17 +798,22 @@
     </Node>
     <Node ToolID="24">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="1710" y="174" />
+        <Position x="1662" y="198" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\SEBAST~1\AppData\Local\Temp\Engine_14920_83040332887b4ba0883eed2308f7e59d_\Engine_17964_abc28414b8204556a7e244392b2f582a_.yxdb</TempFile>
+          <TempFile>C:\Users\SEBAST~1\AppData\Local\Temp\Engine_6500_c387db98f5784618812d83d4e7af9537_\Engine_13592_8ae4f7084e6b40a4bb9f93356ff90e5f_.yxdb</TempFile>
+          <TempFileDataProfiling />
           <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
             <View1>
+              <DefaultTab>Profile</DefaultTab>
               <Hints>
                 <Table />
               </Hints>
             </View1>
+            <View2 />
           </Layout>
         </Configuration>
         <Annotation DisplayMode="0">

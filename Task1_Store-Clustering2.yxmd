@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="138" />
+        <Position x="54" y="186" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -47,11 +47,11 @@
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="150" y="54" />
+        <Position x="150" y="102" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\SEBAST~1\AppData\Local\Temp\Engine_2884_de27ba20b9e9439e967753a3f0ac035f_\Engine_17964_1cfe629446b241d89c99b01cc8206a37_.yxdb</TempFile>
+          <TempFile>C:\Users\SEBAST~1\AppData\Local\Temp\Engine_15608_23c9c444e995496195632ba58f9763b7_\Engine_13592_5cf1f8b0862f423d996066355f47effa_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -75,7 +75,7 @@
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="210" y="138" />
+        <Position x="210" y="186" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -104,7 +104,7 @@
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="138" y="138" />
+        <Position x="138" y="186" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -133,11 +133,11 @@
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="318" y="78" />
+        <Position x="318" y="126" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\SEBAST~1\AppData\Local\Temp\Engine_2884_de27ba20b9e9439e967753a3f0ac035f_\Engine_17964_9cc4b3b7df8846bca3438513c016ddcc_.yxdb</TempFile>
+          <TempFile>C:\Users\SEBAST~1\AppData\Local\Temp\Engine_15608_23c9c444e995496195632ba58f9763b7_\Engine_13592_e4fde3f775704221bb5117b5070fa5d5_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -161,7 +161,7 @@
     </Node>
     <Node ToolID="6">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="606" y="138" />
+        <Position x="606" y="186" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -179,7 +179,7 @@
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="354" y="138" />
+        <Position x="354" y="186" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -210,7 +210,7 @@
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="714" y="138" />
+        <Position x="714" y="186" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -237,11 +237,11 @@
     </Node>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="786" y="78" />
+        <Position x="786" y="126" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\SEBAST~1\AppData\Local\Temp\Engine_2884_de27ba20b9e9439e967753a3f0ac035f_\Engine_17964_23ba60dead104393911d1dc4f7766c45_.yxdb</TempFile>
+          <TempFile>C:\Users\SEBAST~1\AppData\Local\Temp\Engine_15608_23c9c444e995496195632ba58f9763b7_\Engine_13592_50495c441a414994bbaa4067480020a2_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -265,7 +265,7 @@
     </Node>
     <Node ToolID="10">
       <GuiSettings>
-        <Position x="894" y="174" />
+        <Position x="894" y="222" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -314,11 +314,11 @@
     </Node>
     <Node ToolID="12">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="978" y="198" />
+        <Position x="978" y="246" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\SEBAST~1\AppData\Local\Temp\Engine_2884_de27ba20b9e9439e967753a3f0ac035f_\Engine_17964_e6d0b9a8ab5f4f4c9bdc0ca647ae6ae9_.yxdb</TempFile>
+          <TempFile>C:\Users\SEBAST~1\AppData\Local\Temp\Engine_15608_23c9c444e995496195632ba58f9763b7_\Engine_13592_5b55881afdea4bf39094e21afa47c2a2_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -342,7 +342,7 @@
     </Node>
     <Node ToolID="16">
       <GuiSettings>
-        <Position x="1014" y="126" />
+        <Position x="1014" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -383,11 +383,11 @@
     </Node>
     <Node ToolID="17">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="1134" y="138" />
+        <Position x="1134" y="186" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\SEBAST~1\AppData\Local\Temp\Engine_2884_de27ba20b9e9439e967753a3f0ac035f_\Engine_17964_36e4d6e5474646af840089cf21138980_.yxdb</TempFile>
+          <TempFile>C:\Users\SEBAST~1\AppData\Local\Temp\Engine_15608_23c9c444e995496195632ba58f9763b7_\Engine_13592_2cc0f1f0adc1406689e264b0ba8d839d_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -411,11 +411,11 @@
     </Node>
     <Node ToolID="25">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="438" y="90" />
+        <Position x="438" y="138" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\SEBAST~1\AppData\Local\Temp\Engine_2884_de27ba20b9e9439e967753a3f0ac035f_\Engine_17964_c5a46861aefd438996392b2941eae9be_.yxdb</TempFile>
+          <TempFile>C:\Users\SEBAST~1\AppData\Local\Temp\Engine_15608_23c9c444e995496195632ba58f9763b7_\Engine_13592_ffd32644ae2f4e6ba2ad35c76acf91b9_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -439,7 +439,7 @@
     </Node>
     <Node ToolID="26">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="438" y="126" />
+        <Position x="438" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -466,7 +466,7 @@
     </Node>
     <Node ToolID="30">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="534" y="138" />
+        <Position x="534" y="186" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -495,7 +495,7 @@
     </Node>
     <Node ToolID="32">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="966" y="6" />
+        <Position x="906" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -517,9 +517,6 @@
           <DefaultAnnotationText>storeinformation.csv</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Store" size="254" source="File: E:\Dokumente\05_Studium\Udacity\Predictive_Analytics\0_Projects\Project8_CombiningTechniques\all-project-files\storeinformation.csv" type="V_String" />
@@ -535,7 +532,7 @@
     </Node>
     <Node ToolID="33">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="1074" y="30" />
+        <Position x="1098" y="102" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -550,15 +547,12 @@
               <OrderChanged value="False" />
               <CommaDecimal value="False" />
               <SelectFields>
-                <SelectField field="Left_Address" selected="False" input="Left_" />
-                <SelectField field="Left_City" selected="False" input="Left_" />
-                <SelectField field="Left_State" selected="False" input="Left_" />
-                <SelectField field="Left_Zip" selected="False" input="Left_" />
-                <SelectField field="Right_Store" selected="True" rename="Right_Store" input="Right_" />
+                <SelectField field="Right_Store" selected="False" rename="Right_Store" input="Right_" />
                 <SelectField field="Right_Sum_Dry_Grocery" selected="False" input="Right_" />
                 <SelectField field="Right_Sum_Dairy" selected="False" input="Right_" />
                 <SelectField field="Right_Sum_Frozen_Food" selected="False" input="Right_" />
                 <SelectField field="Right_Sum_Meat" selected="False" input="Right_" />
+                <SelectField field="Right_Sum_Produce" selected="False" input="Right_" />
                 <SelectField field="Right_Sum_Floral" selected="False" input="Right_" />
                 <SelectField field="Right_Sum_Deli" selected="False" input="Right_" />
                 <SelectField field="Right_Sum_Bakery" selected="False" input="Right_" />
@@ -585,13 +579,35 @@
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
     </Node>
-    <Node ToolID="34">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="1194" y="30" />
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1230" y="102" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\SEBAST~1\AppData\Local\Temp\Engine_2884_de27ba20b9e9439e967753a3f0ac035f_\Engine_17964_1535c91b59b74ef7ae0ef06fe0996976_.yxdb</TempFile>
+          <File FileFormat="19" MaxRecords="">E:\Dokumente\05_Studium\Udacity\Predictive_Analytics\0_Projects\Project8_CombiningTechniques\New_Clustered_data.yxdb</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>New_Clustered_data.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1218" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\SEBAST~1\AppData\Local\Temp\Engine_15608_23c9c444e995496195632ba58f9763b7_\Engine_13592_d7ff5d27093a40c3acddbed2af5e89ab_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -613,30 +629,39 @@
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
     </Node>
-    <Node ToolID="35">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="1206" y="78" />
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="1002" y="66" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <File FileFormat="19" MaxRecords="">E:\Dokumente\05_Studium\Udacity\Predictive_Analytics\0_Projects\Project8_CombiningTechniques\New_Clustered_data.yxdb</File>
-          <Passwords />
-          <FormatSpecificOptions>
-            <NoSpatialIndex>False</NoSpatialIndex>
-            <SaveSource>True</SaveSource>
-          </FormatSpecificOptions>
-          <MultiFile value="False" />
+          <Fields>
+            <Field field="Store" selected="True" />
+            <Field field="Address" selected="True" />
+            <Field field="City" selected="True" />
+            <Field field="State" selected="True" />
+            <Field field="Zip" selected="True" />
+            <Field field="Type" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>New_Clustered_data.yxdb</DefaultAnnotationText>
+          <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="5" source="File: E:\Dokumente\05_Studium\Udacity\Predictive_Analytics\0_Projects\Project8_CombiningTechniques\all-project-files\storeinformation.csv" type="String" />
+            <Field name="Address" size="29" source="File: E:\Dokumente\05_Studium\Udacity\Predictive_Analytics\0_Projects\Project8_CombiningTechniques\all-project-files\storeinformation.csv" type="V_String" />
+            <Field name="City" size="21" source="File: E:\Dokumente\05_Studium\Udacity\Predictive_Analytics\0_Projects\Project8_CombiningTechniques\all-project-files\storeinformation.csv" type="V_String" />
+            <Field name="State" size="2" source="File: E:\Dokumente\05_Studium\Udacity\Predictive_Analytics\0_Projects\Project8_CombiningTechniques\all-project-files\storeinformation.csv" type="String" />
+            <Field name="Zip" source="File: E:\Dokumente\05_Studium\Udacity\Predictive_Analytics\0_Projects\Project8_CombiningTechniques\all-project-files\storeinformation.csv" type="Int32" />
+            <Field name="Type" size="8" source="File: E:\Dokumente\05_Studium\Udacity\Predictive_Analytics\0_Projects\Project8_CombiningTechniques\all-project-files\storeinformation.csv" type="String" />
+          </RecordInfo>
+        </MetaInfo>
       </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
     </Node>
   </Nodes>
   <Connections>
@@ -701,7 +726,7 @@
       <Destination ToolID="33" Connection="Right" />
     </Connection>
     <Connection>
-      <Origin ToolID="32" Connection="Output" />
+      <Origin ToolID="38" Connection="Output" />
       <Destination ToolID="33" Connection="Left" />
     </Connection>
     <Connection>
@@ -713,8 +738,12 @@
       <Destination ToolID="6" Connection="Input" />
     </Connection>
     <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
       <Origin ToolID="33" Connection="Join" />
-      <Destination ToolID="34" Connection="Input" />
+      <Destination ToolID="37" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="33" Connection="Join" />
